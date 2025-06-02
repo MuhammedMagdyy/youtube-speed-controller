@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Speed Controller",
+  "version": "1.0",
+  "description": "Choose your YouTube playback speed between 2.10 and 3.00",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
