@@ -42,6 +42,10 @@ Now, with this extension, you can go **beyond 2x** and take full control of your
 - HTML & CSS
 - Chrome Extensions
 
+## ⭐️ Like It?
+
+If this extension saved your time while learning, consider leaving a GitHub star ⭐️!
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
